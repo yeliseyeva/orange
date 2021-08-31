@@ -17,7 +17,7 @@
     }
 
     .search-btn {
-      display: none;
+      // display: none;
       width: 36px;
       height: 32px;
 
@@ -29,7 +29,12 @@
       height: 32px;
 
       font-weight: 700;
+      font-family: Spectral;
       color: #fff;
+
+      .icon-burger {
+        margin-right: 4px;
+      }
     }
   }
 }
