@@ -22,38 +22,54 @@
     <header>
       <div class="header-conteiner">
         <a href="">
-          <svg width="118px" height="32px">
+          <svg class="icon-logo">
             <use href="./images/symbol-defs.svg#icon-logo"></use>
           </svg>
         </a>
 
+        <div class="nav-menu">
+          <nav>
+            <ul class="nav-list">
+              <li class="nav-item"><a href="">О компании</a></li>
+              <li class="nav-item"><a href="">О продукции</a></li>
+              <li class="nav-item"><a href="">Каталог товаров
+                <svg width="12px" height="12px" class="icon-chevron-bottom">
+                  <use href="./images/symbol-defs.svg#icon-chevron-bottom"></use>
+                </svg>
+              </a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- <p class="header-text">Разработано в Германии. Сделано в России.</p> -->
+
         <div class="nav">
+          <a href="tel:79055432345" class="tel">+7 (905) 543 23 45</a>
+          
           <button type="button" class="search-btn nav-btn">
             <svg width="20px" height="20px">
               <use href="./images/symbol-defs.svg#icon-search"></use>
             </svg>
           </button>
 
-          <button type="button" class="menu-btn nav-btn">
+          <button type="button" class="menu-btn nav-btn" >
             <svg width="17px" height="12px" class="icon-burger">
               <use href="./images/symbol-defs.svg#icon-burger"></use>
+            </svg>
+
+            <svg width="13px" height="13px" class="icon-close is-hidden">
+              <use href="./images/symbol-defs.svg#icon-close-menu"></use>
             </svg>
             Меню
           </button>
         </div>
+
+        
       </div>
     </header>
 
     <div class="hero">
-      <div>
-        <nav>
-          <ul class="nav-list">
-            <li class="nav-item"></li>
-            <li class="nav-item"></li>
-            <li class="nav-item"></li>
-          </ul>
-        </nav>
-      </div>
+      
     </div>
 
     <script src="./index.js"></script>

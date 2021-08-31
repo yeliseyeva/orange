@@ -27,5 +27,14 @@
 <path fill="none" stroke="#716f6f" style="stroke: var(--color1, #716f6f)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.2" d="M13.333 22.667c5.155 0 9.333-4.179 9.333-9.333s-4.179-9.333-9.333-9.333c-5.155 0-9.333 4.179-9.333 9.333s4.179 9.333 9.333 9.333z"></path>
 <path fill="none" stroke="#716f6f" style="stroke: var(--color1, #716f6f)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M20 20l8 8"></path>
 </symbol>
+
+<symbol id="icon-close-menu" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M12.122 15.354l-12.122 12.122 3.232 3.232 12.122-12.122 12.122 12.122 3.232-3.232-12.122-12.122 12.121-12.121-3.232-3.232-12.121 12.121-12.121-12.121-3.232 3.232 12.121 12.121z"></path>
+</symbol>
+
+<symbol id="icon-chevron-bottom" viewBox="0 0 32 32">
+<path fill="#bebebe" style="fill: var(--color1, #bebebe)" d="M4.586 10.586c-0.781 0.781-0.781 2.047 0 2.828l10 10c0.781 0.781 2.047 0.781 2.828 0l10-10c0.781-0.781 0.781-2.047 0-2.828s-2.047-0.781-2.828 0l-8.586 8.586-8.586-8.586c-0.781-0.781-2.047-0.781-2.828 0z"></path>
+</symbol>
+
 </defs>
 </svg>
