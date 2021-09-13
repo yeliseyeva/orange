@@ -36,5 +36,13 @@
 <path fill="#bebebe" style="fill: var(--color1, #bebebe)" d="M4.586 10.586c-0.781 0.781-0.781 2.047 0 2.828l10 10c0.781 0.781 2.047 0.781 2.828 0l10-10c0.781-0.781 0.781-2.047 0-2.828s-2.047-0.781-2.828 0l-8.586 8.586-8.586-8.586c-0.781-0.781-2.047-0.781-2.828 0z"></path>
 </symbol>
 
+<symbol id="icon-line-hero-1" viewBox="0 0 10496 32">
+<path d="M0 0h10496v32h-10496v-32z"></path>
+</symbol>
+
+<symbol id="icon-line-gallery" viewBox="0 0 496 32">
+<path  d="M0 0h496v32h-496v-32z"></path>
+</symbol>
+
 </defs>
 </svg>

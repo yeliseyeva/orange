@@ -20,19 +20,19 @@
   </head>
   <body>
     <header>
-      <div class="header-conteiner">
-        <a href="">
+      <div class="header-conteiner ">
+        <a href="" class="link">
           <svg class="icon-logo">
             <use href="./images/symbol-defs.svg#icon-logo"></use>
           </svg>
         </a>
 
-        <div class="nav-menu">
+        <div class="nav-menu is-hidden conteiner">
           <nav>
-            <ul class="nav-list">
-              <li class="nav-item"><a href="">О компании</a></li>
-              <li class="nav-item"><a href="">О продукции</a></li>
-              <li class="nav-item"><a href="">Каталог товаров
+            <ul class="nav-list list">
+              <li class="nav-item"><a href="" class="link">О компании</a></li>
+              <li class="nav-item"><a href="" class="link">О продукции</a></li>
+              <li class="nav-item"><a href="" class="link">Каталог товаров
                 <svg width="12px" height="12px" class="icon-chevron-bottom">
                   <use href="./images/symbol-defs.svg#icon-chevron-bottom"></use>
                 </svg>
@@ -44,7 +44,7 @@
         <!-- <p class="header-text">Разработано в Германии. Сделано в России.</p> -->
 
         <div class="nav">
-          <a href="tel:79055432345" class="tel">+7 (905) 543 23 45</a>
+          <a href="tel:79055432345" class="tel link">+7 (905) 543 23 45</a>
           
           <button type="button" class="search-btn nav-btn">
             <svg width="20px" height="20px">
@@ -63,14 +63,59 @@
             Меню
           </button>
         </div>
-
-        
       </div>
     </header>
 
-    <div class="hero">
-      
-    </div>
+    <main>
+      <section class="hero">
+        <div class="conteiner hero-conteiner">
+          <p class="header-text">Разработано в Германии. Сделано в России.</p>
+
+          <h1 class="title-hero">Сантехника и мебель для ванной комнаты</h1>
+
+          <div class="nav-hero">
+            <ul class="list-nav-hero list">
+              <li class="item-nav-hero">
+                <a href="" class="nav-link-hero link">О компании</a>
+              </li>
+              <li class="item-nav-hero">
+                <a href="" class="nav-link-hero link">О продукции</a>
+              </li>
+              <li class="item-nav-hero">
+                <a href="" class="nav-link-hero link">Каталог товаров</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-gallery">
+            <ul class="list hero-gallery-list">
+              <li class="hero-gallery-item">
+                <button class="button-gallery">
+                <svg class="gallery-icon active-gallery-icon" width='31px' height='2px'>
+                  <use href='./images/symbol-defs.svg#icon-line-gallery'></use>
+                </svg>
+              </button>
+            </li>
+              <li class="hero-gallery-item">
+                <button class="button-gallery">
+                <svg class="gallery-icon" width='31px' height='2px'>
+                  <use href='./images/symbol-defs.svg#icon-line-gallery'></use>
+                </svg>
+              </button>
+            </li>
+              <li class="hero-gallery-item">
+                <button class="button-gallery">
+                <svg class="gallery-icon" width='31px' height='2px'>
+                  <use href='./images/symbol-defs.svg#icon-line-gallery'></use>
+                </svg>
+              </button>
+            </li>
+            </ul>
+          </div>
+          
+        </div>
+      </section>
+    </main>
 
     <script src="./index.js"></script>
   </body>

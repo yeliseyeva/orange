@@ -1,3 +1,75 @@
 .hero {
-  background-color: rgba(6, 7, 7, 0.8);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(6, 7, 7, 0.85);
+
+  background-image: url(../images/hero-image-gallery-1.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  .hero-conteiner {
+    background-image: url(../images/price-gallery-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom 60px right 24px;
+  }
+
+  .header-text {
+    margin-bottom: 20px;
+    color: #939393;
+  }
+
+  .title-hero {
+    margin-bottom: 40px;
+
+    color: #fff;
+    font-family: Spectral;
+  }
 }
+
+.nav-hero {
+  .list-nav-hero {
+    margin-bottom: 144px;
+    .item-nav-hero:not(:last-child) {
+      padding-bottom: 16px;
+    }
+    .item-nav-hero:not(:last-child)::after {
+      content: url(../images/line-hero.png);
+    }
+    .item-nav-hero::before {
+      content: url(../images/right-arrow.png);
+    }
+    .item-nav-hero {
+      .nav-link-hero {
+        color: #bebebe;
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+.hero-gallery {
+  .hero-gallery-list {
+    display: flex;
+
+    .hero-gallery-item:not(:last-child) {
+      margin-right: 10px;
+    }
+    .hero-gallery-item {
+      .button-gallery {
+        border: none;
+        background-color: transparent;
+        outline: none;
+      }
+    }
+  }
+}
+
+.gallery-icon {
+  fill: #575757;
+}
+
+.active-gallery-icon {
+  fill: #f5702c;
+}
+
+// #575757
