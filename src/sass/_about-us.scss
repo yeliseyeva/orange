@@ -1,0 +1,49 @@
+.about-us {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  .about-us-conteiner {
+    p {
+      line-height: 28px;
+    }
+  }
+
+  .text-decoration {
+    margin-bottom: 20px;
+  }
+
+  .dropcaps {
+    font-size: 56px;
+
+    font-family: Georgia, serif;
+    float: left;
+    font-weight: 400;
+    line-height: 1em;
+    //   margin-bottom: -0.4em;
+    margin-right: 7px;
+    //   position: relative;
+  }
+
+  span {
+    color: #fe5b00;
+  }
+
+  .about-us-list {
+    .about-us-item {
+      display: flex;
+      margin-bottom: 32px;
+
+      svg {
+        margin-right: 24px;
+      }
+      .about-item-title {
+        font-size: 16px;
+      }
+      p {
+        width: 234px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #7b7b7b;
+      }
+    }
+  }
+}
