@@ -1,0 +1,62 @@
+.our-products {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Spectral;
+
+  .our-products-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+.our-products-list {
+  .item-first {
+    background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0), rgba(0, 0, 0, 0.5)),
+      url(../images/our-products-1.png);
+  }
+
+  .item-second {
+    background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0), rgba(0, 0, 0, 0.5)),
+      url(../images/our-products-2.png);
+  }
+
+  .item-third {
+    background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0), rgba(0, 0, 0, 0.5)),
+      url(../images/our-products-3.png);
+  }
+
+  .item-fourth {
+    background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0), rgba(0, 0, 0, 0.5)),
+      url(../images/our-products-4.png);
+  }
+
+  .our-products-item {
+    display: flex;
+    background-repeat: no-repeat;
+    // background-position: bottom right;
+
+    // width: 330px;
+    // height: 200px;
+
+    margin-bottom: 16px;
+  }
+}
+
+.our-products-link {
+  display: flex;
+  width: 330px;
+  height: 200px;
+  //   margin-top: auto;
+  //   margin-bottom: 24px;
+  //   margin-left: 24px;
+
+  color: #fff;
+  line-height: 22px;
+  font-size: 20px;
+
+  span {
+    margin-top: auto;
+    margin-bottom: 24px;
+    margin-left: 24px;
+  }
+}
