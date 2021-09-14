@@ -1,0 +1,49 @@
+.collections {
+  background-color: rgba(6, 7, 7, 0.85);
+
+  .collection-img {
+    display: block;
+    width: 360px;
+    height: 243px;
+
+    background-image: url(../images/collections-image.png);
+    background-repeat: no-repeat;
+  }
+
+  .price-img {
+    display: block;
+    width: 200px;
+    height: 200px;
+
+    background-image: url(../images/price-gallery-1.png);
+    background-repeat: no-repeat;
+    background-position: 16px 6px;
+  }
+
+  .collection-name {
+    display: inline-block;
+
+    margin-top: 16px;
+    margin-left: 16px;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+
+  .collections-conteiner {
+    .collections-title {
+      margin-top: 29px;
+      margin-bottom: 16px;
+
+      color: #fff;
+      font-family: Spectral;
+    }
+
+    .collections-text {
+      color: #bebebe;
+    }
+  }
+}
