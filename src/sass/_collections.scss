@@ -1,5 +1,6 @@
 .collections {
   background-color: rgba(6, 7, 7, 0.85);
+  padding-bottom: 30px;
 
   .collection-img {
     display: block;
@@ -42,8 +43,27 @@
       font-family: Spectral;
     }
 
+    .text-conteiner::after {
+      content: url(../images/line-hero.png);
+    }
+
     .collections-text {
       color: #bebebe;
+      line-height: 28px;
+      margin-bottom: 26px;
+    }
+
+    .link-conteiner {
+      margin-top: 26px;
+    }
+
+    .link-conteiner::before {
+      content: url(../images/right-arrow.png);
+    }
+
+    .collections-link {
+      color: #bebebe;
+      margin-left: 15px;
     }
   }
 }
