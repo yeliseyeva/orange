@@ -6,4 +6,45 @@
       font-family: Spectral;
     }
   }
+
+  .carousel {
+    .carousel-list {
+      .carousel-item {
+        padding: 26px;
+        margin: auto;
+
+        width: 262px;
+        height: 347px;
+
+        border: 1px solid #ececec;
+        .carousel-link {
+          color: #303030;
+          line-height: 24px;
+
+          .product-img {
+            margin-bottom: 20px;
+          }
+
+          .products-description {
+            p {
+              margin-bottom: 16px;
+            }
+            span {
+              font-size: 20px;
+              line-height: 20px;
+            }
+            .price {
+              font-weight: 700;
+              margin-right: 12px;
+            }
+
+            .old-price {
+              text-decoration: line-through;
+              color: #a5a5a5;
+            }
+          }
+        }
+      }
+    }
+  }
 }
